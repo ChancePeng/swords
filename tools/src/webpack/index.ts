@@ -1,0 +1,1 @@
+export {default as createConfig} from './create_config'
