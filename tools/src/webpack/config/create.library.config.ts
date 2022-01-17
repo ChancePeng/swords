@@ -18,7 +18,7 @@ const entry = initEntry();
 
 const outputFileName = (chunk:Record<string,any>) => {
   const name:string = chunk.chunk.name;
-  const filename = name.replace('ts','js').replace('jsx','js');
+  const filename = name.replace('.ts','.js').replace('.jsx','.js');
   return filename;
 }
 

@@ -1,1 +1,1 @@
-export {default as createConfig} from './create_config'
+export {default as createConfig} from './create.config'
