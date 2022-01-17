@@ -20,18 +20,6 @@ const outputFileName = (chunk) => {
   return filename;
 }
 
-const config = {
-  entry,
-  output:{
-    filename:outputFileName,
-    path:path.resolve(process.cwd(),'./lib'),
-    libraryTarget:'commonjs2'
-  },
-  mode:'production',
-}
-
-
-
 module.exports = {
   entry,
   output:{
