@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "main": "lib/index.js",
   "license": "MIT",
+  "keywords": [
+    "npm",
+    "webpack",
+    "glob"
+  ],
   "scripts": {
     "build":"yarn webpack",
     "watch":"yarn webpack -w"
