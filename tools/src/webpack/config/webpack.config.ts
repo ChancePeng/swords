@@ -1,5 +1,4 @@
 import type {Configuration} from 'webpack';
-import { CleanPlugin } from 'webpack';
 
 const defaultConfig:Configuration =  {
   resolve:{
@@ -17,9 +16,6 @@ const defaultConfig:Configuration =  {
       }
     ]
   },
-  plugins:[
-    new CleanPlugin()
-  ],
   externals:/(react|glob|babel-runtime)/
 }
 
